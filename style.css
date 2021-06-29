@@ -1,5 +1,5 @@
 html,body{
-    margin: 0px 5px 100px 5px;
+    margin: 0px;
 }
 
 .container {
@@ -9,6 +9,7 @@ html,body{
     justify-content: center;
     align-items: center;
     background-color: lightgray;
+    
 }
 
 .card   {
@@ -22,14 +23,18 @@ html,body{
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
+    box-shadow: 2px 4px 6px 0px rgba(37, 37, 37, 0.75);
     align-items: center;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .username{
     padding-top: 30px;
     text-align: center;
+    border-style:none;
+    
 }
 
 .password{
@@ -37,7 +42,7 @@ html,body{
     padding-bottom: 10px;
 }
 .button{
-   padding-top: 30px;
-    text-align: center;
-}
+   padding-top: 20px;
+   text-align: center;
 
+}
